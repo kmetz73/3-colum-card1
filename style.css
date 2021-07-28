@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@media screen and (max-width: 480px) {
+  .custom-class {
+    width: 100%;    
+    display: block;
+    font-size: 15px;
+    justify-content: left;
+    
+  }
+  }
+
+body {   
+  background-color:  hsl(0, 0%, 95%);
+
+}
+
+.cotainer {
+  align-content: center ;
+  justify-content: center; 
+}
+
+.grid {
+  margin: 80px;
+  display: flex;
+  align-content: center;  
+  grid-gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  font-family:  'Lexend Deca', sans-serif;
+
+  color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.card-sedans {
+  background-color:  hsl(31, 77%, 52%);
+
+}
+
+.card-suvs {
+  background-color: hsl(184, 100%, 22%) ;
+}
+
+.card-luxury {
+  background-color:  hsl(179, 100%, 13%);
+
+}
+
+.grid > article {
+  border: none;
+  text-align: center;
+  width: 250px;
+  
+
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.brt-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+
+}
+
+button {
+  word-wrap: break-word;
+  font-family: 'Big Shoulders Display', cursive ;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 15px ;
+  width: 10em;
+  max-width: 100%;
+}
